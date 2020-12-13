@@ -1,7 +1,3 @@
-# I would like to check each number and subtract it from 2020. Then search the table for the number that I find. 
-#  If that number is not found then I continue with the next number. I believe I should put the whole list in a hash.
-
-# Gotta find a much much more optimised way to solve this...
 import time
 
 with open('day1a-input.txt', 'r') as file:
