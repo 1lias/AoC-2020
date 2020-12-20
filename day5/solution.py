@@ -47,7 +47,7 @@ def part2():
     rng = list(range(63,935))
     index = 0
 
-    for val in l:
+    while index < len(l):
         if rng[index] != l[index]:
             print(rng[index])
             return
