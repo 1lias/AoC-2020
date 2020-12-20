@@ -41,4 +41,17 @@ def part1():
     print(seatIDs[0])
     return seatIDs
 
-part1()
+def part2():
+    l = part1()
+    l.sort()
+    rng = list(range(63,935))
+    index = 0
+
+    for val in l:
+        if rng[index] != l[index]:
+            print(rng[index])
+            return
+        index += 1
+        
+
+part2()
